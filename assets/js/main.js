@@ -37,7 +37,7 @@
   /**
    * Navbar links active state on scroll
    */
-  /**let navbarlinks = select('#navbar .scrollto', true)
+  let navbarlinks = select('#navbar .scrollto', true)
   const navbarlinksActive = () => {
     let position = window.scrollY + 200
     navbarlinks.forEach(navbarlink => {
@@ -52,7 +52,7 @@
     })
   }
   window.addEventListener('load', navbarlinksActive)
-  onscroll(document, navbarlinksActive)**/
+  onscroll(document, navbarlinksActive)
 
   /**
    * Scrolls to an element with header offset
