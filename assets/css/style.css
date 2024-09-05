@@ -1370,12 +1370,13 @@ section {
   display: flex;
   align-items: center; 
   padding: 10px;
+  justify-content: space-between;
 }
 
 .group-01 .row {
   float: left;
   width: 100%;
-  padding: 30px;
+  padding: 10px;
   justify-content: space-between;
 }
 
@@ -1389,7 +1390,7 @@ section {
   float: left;
   width: 100%;
   padding: 30px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .btn-primary {
@@ -1398,8 +1399,17 @@ section {
   color: white;
 }
 
+#card-matt {
+  margin: 40px;
+  padding: 20px;
+  max-height: 100px;
+
+}
+
 #card-mariah {
-  margin-top: 50px;
+  margin: 10px;
+  padding: 50px;
+  min-height: 100px;
 }
 
 
@@ -1453,7 +1463,20 @@ section {
   height: 550px;
 }
 
-@media (max-width: 992px) {
+.team-card {
+  background-color: transparent;
+  background-size: 0px;
+  width: 100%; /* Use full width within the column */
+  height: 40vh; /* Or any desired percentage of viewport height */
+  min-height: 400px; /* Sets a minimum height for all cards */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+@media (max-width: 768px) {
 
   .team #card-matt, #card-mariah, #card-glendel, #card01, #card02, #card03, #card04, #card05, #card06,
   #card07, #card08 {
@@ -1478,24 +1501,13 @@ section {
   }
 }
   
-
   #img-matt {
     width: 50%;
     height: 50%;
     margin-top: 1000px;
 }
 
-.team-card {
-  background-color: rgba(255, 255, 255, 0);
-  width: 100%; /* Use full width within the column */
-  height: 40vh; /* Or any desired percentage of viewport height */
-  min-height: 400px; /* Sets a minimum height for all cards */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-@media (max-width: 798px) {
+@media (max-width: 992px) {
   .team .row {
     flex-direction: column; /* Stack columns */
     align-items: center; /* Center the cards */
