@@ -1653,9 +1653,29 @@ section {
   right: 0;
 }
 
-.container01 {
-  display: flex;
-  column-gap: 20px;
+.keypoints img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 1.5rem;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.keypoints ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.keypoints h5, .keypoints h6 {
+  margin-top: 1.5rem;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .keypointphotos, .keypoints {
+    text-align: center;
+  }
 }
 
 /*--------------------------------------------------------------
