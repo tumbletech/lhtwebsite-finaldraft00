@@ -1169,6 +1169,7 @@ section {
   
 }
 
+
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
@@ -1302,7 +1303,7 @@ section {
   border-radius: 25px;
   box-shadow: 10px 10px #6e6e6e;
   text-align: center;
-  height: 45vh;
+  max-height: 45vh;
 }
 
 .team #card02 {
@@ -1310,7 +1311,7 @@ section {
   border-radius: 25px;
   box-shadow: 10px 10px #6e6e6e;
   text-align: center;
-  height: 45vh;
+  max-height: 45vh;
 }
 
 .team #card03 {
@@ -1318,7 +1319,7 @@ section {
   border-radius: 25px;
   box-shadow: 10px 10px #6e6e6e;
   text-align: center;
-  height: 45vh;
+  max-height: 45vh;
 }
 
 .team #card04 {
@@ -1326,7 +1327,7 @@ section {
   border-radius: 25px;
   box-shadow: 10px 10px #6e6e6e;
   text-align: center;
-  height: 45vh;
+  max-height: 45vh;
 }
 
 .team #card05 {
@@ -1334,7 +1335,7 @@ section {
   border-radius: 25px;
   box-shadow: 10px 10px #6e6e6e;
   text-align: center;
-  height: 45vh;
+  max-height: 45vh;
 }
 
 .team #card06 {
@@ -1342,7 +1343,7 @@ section {
   border-radius: 25px;
   box-shadow: 10px 10px #6e6e6e;
   text-align: center;
-  height: 45vh;
+  max-height: 45vh;
 }
 
 .team #card07 {
@@ -1350,7 +1351,7 @@ section {
   border-radius: 25px;
   box-shadow: 10px 10px #6e6e6e;
   text-align: center;
-  height: 45vh;
+  max-height: 45vh;
 }
 
 .team #card08 {
@@ -1358,7 +1359,7 @@ section {
   border-radius: 25px;
   box-shadow: 10px 10px #6e6e6e;
   text-align: center;
-  height: 45vh;
+  max-height: 45vh;
 }
 
 /*.group-00 {
@@ -1482,6 +1483,28 @@ section {
     width: 50%;
     height: 50%;
     margin-top: 1000px;
+}
+
+.team-card {
+  background-color: rgba(255, 255, 255, 0);
+  width: 100%; /* Use full width within the column */
+  height: 40vh; /* Or any desired percentage of viewport height */
+  min-height: 400px; /* Sets a minimum height for all cards */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width: 798px) {
+  .team .row {
+    flex-direction: column; /* Stack columns */
+    align-items: center; /* Center the cards */
+  }
+
+  .team-card {
+    width: 100%; /* Full width in mobile */
+    margin-bottom: 20px; /* Space between cards */
+  }
 }
 
 /* Modals */
