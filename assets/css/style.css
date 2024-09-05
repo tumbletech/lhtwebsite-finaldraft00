@@ -1453,7 +1453,7 @@ section {
   height: 550px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
 
   .team #card-matt, #card-mariah, #card-glendel, #card01, #card02, #card03, #card04, #card05, #card06,
   #card07, #card08 {
