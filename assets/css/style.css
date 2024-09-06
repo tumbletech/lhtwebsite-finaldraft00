@@ -1401,6 +1401,7 @@ section {
 
 #card-matt {
   margin-top: 0px;
+  margin-right: 50px;
   padding: 50px;
   /*min-height: 200px;*/
   height: 25rem !important;
@@ -1409,6 +1410,7 @@ section {
 
 #card-mariah {
   margin-top: -75px;
+  margin-left: 50px;
   padding: 100px;
   /*min-height: 200px;*/
   min-height: 25rem !important;
@@ -1416,6 +1418,7 @@ section {
 
 #card01, #card02, #card03, #card04, #card05, #card06, #card07, #card08 {
   background-color:#b8c0c7;
+  padding: 50px;
   /*flex: 1 1 calc(33.33% - 20px);
   width: 10px;
   max-height: 500px*/
@@ -1423,6 +1426,10 @@ section {
 
 #card03, #card04, #card05, #card06, #card07, #card08 {
   margin-top: 150px;
+}
+
+#card03 {
+  margin-right: 250px;
 }
 
 /*#card-matt {
