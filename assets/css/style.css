@@ -1481,11 +1481,21 @@ section {
   .team-card .col-12 {
     margin-bottom: 20px;
   }
+
+  #card01, #card02 {
+    justify-content: space-between;
+  }
+
+  #card02 {
+    margin-top: 100px;
+    min-height: 30rem;
+  }
 }
 
 .team-card {
   background-color: transparent !important;
   border-color: transparent !important;
+  align-items: center;
 }
 /* Modals */
 
