@@ -1493,9 +1493,29 @@ section {
     justify-content: space-between;
   }
 
+  #card01 {
+    margin-left: 10% !important;
+    padding: 50px;
+  }
+
   #card02 {
     margin-top: 100px;
     min-height: 30rem;
+    margin-right: 40px;
+  }
+
+  #card01, #card03, #card04, #card05, #card06, #card07, #card08 {
+    height: 30rem;
+    margin: 0 auto;
+    align-items:center;
+  }
+
+  #card03 {
+    margin-top: 150px;
+  }
+
+  #card04, #card05, #card06, #card07, #card08 {
+    margin-top: 25px;
   }
 }
 
@@ -1504,6 +1524,7 @@ section {
   border-color: transparent !important;
   align-items: center;
 }
+
 /* Modals */
 
 
