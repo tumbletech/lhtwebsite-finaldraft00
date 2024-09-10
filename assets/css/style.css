@@ -1277,288 +1277,104 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-    background: url("../img/background2-bg.jpg") top left;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-    position: relative;
+  background: url("../img/background2-bg.jpg") top left;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
 }
 
 .team:before {
-  content: "";
-  background: rgba(255, 255, 255, 0.6);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
+content: "";
+background: rgba(255, 255, 255, 0.6);
+position: absolute;
+bottom: 0;
+top: 0;
+left: 0;
+right: 0;
 }
 
-.team .row {
-  padding: 25px;
-}
 
-.team #card01 {
-  padding: 25px;
-  border-radius: 25px;
-  box-shadow: 10px 10px #6e6e6e;
-  text-align: center;
-  max-height: 45vh;
-}
-
-.team #card02 {
-  padding: 25px;
-  border-radius: 25px;
-  box-shadow: 10px 10px #6e6e6e;
-  text-align: center;
-  max-height: 45vh;
-}
-
-.team #card03 {
-  padding: 25px;
-  border-radius: 25px;
-  box-shadow: 10px 10px #6e6e6e;
-  text-align: center;
-  max-height: 45vh;
-}
-
-.team #card04 {
-  padding: 30px;
-  border-radius: 25px;
-  box-shadow: 10px 10px #6e6e6e;
-  text-align: center;
-  max-height: 45vh;
-}
-
-.team #card05 {
-  padding: 30px;
-  border-radius: 25px;
-  box-shadow: 10px 10px #6e6e6e;
-  text-align: center;
-  max-height: 45vh;
-}
-
-.team #card06 {
-  padding: 25px;
-  border-radius: 25px;
-  box-shadow: 10px 10px #6e6e6e;
-  text-align: center;
-  max-height: 45vh;
-}
-
-.team #card07 {
-  padding: 25px;
-  border-radius: 25px;
-  box-shadow: 10px 10px #6e6e6e;
-  text-align: center;
-  max-height: 45vh;
-}
-
-.team #card08 {
-  padding: 25px;
-  border-radius: 25px;
-  box-shadow: 10px 10px #6e6e6e;
-  text-align: center;
-  max-height: 45vh;
-}
-
-/*.group-00 {
-  justify-content:space-between;
-}*/
-
-/*.group-01 {
-  display: flex;
-  align-items: center; 
-  padding: 10px;
-  justify-content: space-between;
-}
-
-.group-01 .row {
-  float: left;
-  width: 100%;
-  padding: 10px;
-  justify-content: space-between;
-}
-
-.group-02 {
-  display: flex;
-  align-items: center; 
-  padding: 10px;
-}
-
-.group-02 .row {
-  float: left;
-  width: 100%;
-  padding: 30px;
-  justify-content: space-around;
-}*/
-
-.btn-primary {
-  background-color: white;
-  border-color: rgb(135, 131, 131);
-  color: white;
-}
-
-#card-matt {
-  margin-top: 0px;
-  margin-right: 50px;
-  padding: 50px;
-  /*min-height: 200px;*/
-  height: 25rem !important;
-
-}
-
-#card-mariah {
-  margin-top: -75px;
-  margin-left: 50px;
-  padding: 100px;
-  /*min-height: 200px;*/
-  min-height: 25rem !important;
-}
-
-#card01, #card02, #card03, #card04, #card05, #card06, #card07, #card08 {
-  background-color:#b8c0c7;
-  padding: 50px;
-  /*flex: 1 1 calc(33.33% - 20px);
-  width: 10px;
-  max-height: 500px*/
-}
-
-#card03, #card04, #card05, #card06, #card07, #card08 {
-  margin-top: 150px;
-}
-
-#card03 {
-  margin-right: 250px;
-}
-
-/*#card-matt {
-  width: 200px;
-  max-height: 10px;
-}
-
-#card-mariah {
-  padding: 2px;
-  margin-left: 1px;
-  margin-right: 5px;
-}*/
-
-#img-matt {
-  width: 100%;
-  height: 100%;
-  object-fit:cover;
-}
-
-.team .row .group-00{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 100%;
-}
-
-/*.team .row .group-01{
-  display: inline-flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.team .row .group-02{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 100%;
-}*/
-
-.col-md-4 {
-  padding: 50px;
-  height: 550px;
-}
-
-.team-card {
+/* Ensure all cards have the same fixed width and height */
+.card {
+  width: 100%; /* Fixed width for all cards */
+  height: auto; /* Fixed height for all cards */
+  object-fit: cover;
   display: flex;
   flex-direction: column;
+  border: none; /* Optional: remove border if not needed */
+  margin: auto; /* Center the cards within their containers */
+  align-items:center;
+  justify-content: center;
+  background-color: #b8c0c7;
+  border-radius: 20px !important;
+  box-shadow: 0 100px 50px rgba (0, 0, 0, 0.2);
+}
+
+/* Styling for card images */
+.card-img-top {
+  margin-top: 30px;
+  padding: 15px;
+  width: 100%; /* Full width of the card */
+  height: 550px; /* Fixed height for images */
+  object-fit: cover; /* Ensure images cover the area without distortion */
+}
+
+/* Card body styling */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+  background-color: #b8c0c7;
+}
+
+/* Button styling */
+.card-body .btn {
+  margin-top: auto; /* Push button to the bottom of the card body */
+}
+
+p .card-text {
+  align-items: center;
+  justify-content: center;
+}
+
+.card-body p {
+  margin-bottom: 1px;
 }
 
 .row {
-  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-@media (max-width: 768px) {
-  .team-card .col-12 {
-    margin-bottom: 20px;
+#card-matt, #card-mariah, #card-glendel, #card-lutchie, #card-adrian, #card-carmelo, #card-selene, #card-joven {
+  background-color: #b8c0c7;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 992px) {
+  .card {
+    width: 100%; /* Ensure cards take full width on mobile screens */
+    height: auto; /* Adjust card height for mobile view */
+    margin-bottom: 1rem; /* Add space between cards in mobile view */
   }
 
-  #card01, #card02 {
-    justify-content: space-between;
-  }
+  .card-img-top {
+    height: auto !important; /* Adjust image height for mobile view */
 
-  #card01 {
-    margin-left: 10% !important;
-    padding: 50px;
-  }
-
-  #card02 {
-    margin-top: 100px;
-    min-height: 30rem;
-    margin-right: 40px;
-  }
-
-  #card01, #card03, #card04, #card05, #card06, #card07, #card08 {
-    height: 30rem;
-    margin: 0 auto;
-    align-items:center;
-  }
-
-  #card03 {
-    margin-top: 150px;
-  }
-
-  #card04, #card05, #card06, #card07, #card08 {
-    margin-top: 25px;
   }
 }
 
-.team-card {
-  background-color: transparent !important;
-  border-color: transparent !important;
-  align-items: center;
+/* Ensure specific cards are properly styled */
+#card-matt,
+#card-mariah {
+  z-index: 2; /* Ensure these cards appear on top if necessary */
+  position: relative; /* Required for z-index to work */
 }
 
-@media (max-width: 498px) {
-  .team-card .col-12 {
-    margin-bottom: 20px;
-  }
-
-  #card01, #card02 {
-    justify-content: space-between;
-  }
-
-  #card01 {
-    margin-left: 10% !important;
-    padding: 50px;
-  }
-
-  #card02 {
-    margin-top: 100px;
-    min-height: 30rem;
-    margin-right: 40px;
-  }
-
-  #card01, #card03, #card04, #card05, #card06, #card07, #card08 {
-    height: 30rem;
-    margin: 0 auto;
-    align-items:center;
-  }
-
-  #card03 {
-    margin-top: 150px;
-  }
-
-  #card04, #card05, #card06, #card07, #card08 {
-    margin-top: 25px;
-  }
-}
 
 /* Modals */
 
