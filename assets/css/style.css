@@ -207,6 +207,38 @@ fr
   margin-top: 70px;
 }
 
+@media (max-width: 768px) {
+  #header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .logo img {
+    min-width: 100%;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  #header {
+    position: relative;
+    z-index: -1;
+  }
+
+  #topbar {
+    position: relative;
+    order: 1;
+  }
+
+  #navbar {
+    display: none;
+  }
+}
+
 
 
 /*--------------------------------------------------------------
