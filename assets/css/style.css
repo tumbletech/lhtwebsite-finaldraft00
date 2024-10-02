@@ -230,8 +230,9 @@ fr
   }
 
   #topbar {
-    position: relative;
-    order: 1;
+    min-width: 50%;
+    justify-content: center;
+    align-items: center;    
   }
 
   #navbar {
