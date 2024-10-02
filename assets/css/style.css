@@ -653,6 +653,17 @@ fr
     height: 140vh;
   }
 
+  #hero {
+    /*background: url("../img/hero-bg.jpg") top left;*/
+    background: url("../img/background3-bg.jpg") top left;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover !important;  /* Safari version */ 
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
   #hero h1 {
     font-size: 28px;
     line-height: 30px;
