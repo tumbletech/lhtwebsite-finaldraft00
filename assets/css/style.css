@@ -164,6 +164,12 @@ fr
   color: white;
 }
 
+@media (max-width: 768px) {
+  #topbar {
+    font-size: 8px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -233,7 +239,6 @@ fr
     min-width: 50%;
     justify-content: center;
     align-items: center;
-    font-size: 8px;
   }
 
   #navbar {
