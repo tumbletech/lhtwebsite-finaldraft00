@@ -226,10 +226,6 @@ fr
     min-width: 100%;
   }
 
-  .navbar {
-    display: none;
-  }
-
   #header {
     position: relative;
     z-index: -1;
@@ -654,13 +650,23 @@ fr
 
 @media (max-width: 768px) {
   #hero {
-    height: 100vh;
+    height: 90vh;
   }
 
   #hero h1 {
     font-size: 28px;
-    line-height: 36px;
+    line-height: 30px;
+    font-weight: 400;
   }
+
+  #hero h6 {
+    font-size: 11px;
+  }
+
+  /*#hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }*/
 
   #hero h2 {
     font-size: 18px;
