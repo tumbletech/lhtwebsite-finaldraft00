@@ -1894,6 +1894,38 @@ p .card-text {
   text-decoration: none;
 }
 
+/* TREC Links Styling */
+#footer .trec-links {
+  text-align: center;
+  margin-top: 15px;
+}
+
+#footer .trec-links a {
+  color: #106eea; /* Match the blue theme */
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+#footer .trec-links a:hover {
+  color: #0d58ba; /* Darker blue on hover */
+  text-decoration: underline; /* Add underline on hover for clarity */
+}
+
+/* TREC Links Styling */
+#footer .trec-links a {
+  color: #106eea; /* Match the blue theme */
+  font-family: 'Poppins', sans-serif; /* Use Poppins font */
+  font-size: 14px;
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease;
+}
+
+#footer .trec-links a:hover {
+  color: #0d58ba; /* Darker blue on hover */
+  text-decoration: underline; /* Underline on hover for clarity */
+}
+
+
 #footer .copyright {
   text-align: center;
   float: left;
