@@ -205,8 +205,8 @@ fr
 }
 
 #header .logo img {
-  width: 80%;
-  height: 80%;
+  width: 60%;
+  height: 60%;
 }
 
 .scrolled-offset {
@@ -1735,6 +1735,41 @@ p .card-text {
   }
 }
 
+.contact .form-group {
+  display: flex;
+  align-items: flex-start;
+}
+
+.contact .form-group input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+  margin-right: 10px;
+}
+
+.contact .form-group label {
+  font-size: 14px;
+  color: #555;
+}
+
+.contact .form-group input[type="checkbox"]:checked + label {
+  color: #007bff;
+}
+
+#privatepolicy {
+  font-size: 14px;
+  color: #555;
+}
+
+#termsofservice {
+  font-size: 14px;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .contact .row {
+    flex-direction: column;
+  }
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
