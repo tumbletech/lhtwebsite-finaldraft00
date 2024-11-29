@@ -508,10 +508,11 @@ fr
 --------------------------------------------------------------*/
 #hero {
   /*background: url("../img/hero-bg.jpg") top left;*/
-  background: url("../img/background3-bg.jpg") top left;
+  background: url("../img/background4-bg.jpg") top left;
   background-size: cover;
   background-attachment: scroll;
   position: relative;
+  opacity: 95%;
 }
 
 #hero:before {
@@ -532,14 +533,15 @@ fr
 
 #hero h1 {
   margin: 0;
-  font-size: 70px;
+  font-size: 60px;
   font-weight: 1000;
   font-family: "Poppins", sans-serif;
   font-style: bold;
+  width: 60%;
 }
 
 #hero h1 span {
-  color: #092404;
+  color: #0f2c05;
 }
 
 #hero h2 {
@@ -640,6 +642,10 @@ fr
   height: 25%;
   opacity: 100%;
   margin: 10px;
+}
+
+.slogan h6 {
+  width: 30%;
 }
 
 @media (min-width: 1024px) {
@@ -1353,8 +1359,8 @@ right: 0;
 
 /* Ensure all cards have the same fixed width and height */
 .card {
-  width: 100%; /* Fixed width for all cards */
-  height: auto; /* Fixed height for all cards */
+  width: 80%; /* Fixed width for all cards */
+  height: 20px; /* Fixed height for all cards */
   object-fit: cover;
   display: flex;
   flex-direction: column;
@@ -1371,8 +1377,8 @@ right: 0;
 .card-img-top {
   margin-top: 30px;
   padding: 15px;
-  width: 100%; /* Full width of the card */
-  height: 550px; /* Fixed height for images */
+  width: 80%; /* Full width of the card */
+  height: 50%; /* Fixed height for images */
   object-fit: cover; /* Ensure images cover the area without distortion */
 }
 
