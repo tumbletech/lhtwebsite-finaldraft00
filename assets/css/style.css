@@ -510,7 +510,7 @@ fr
   /*background: url("../img/hero-bg.jpg") top left;*/
   background: url("../img/background4-bg.jpg") top left;
   background-size: cover;
-  background-attachment: scroll;
+  background-attachment: initial;
   position: relative;
   opacity: 95%;
 }
@@ -654,7 +654,7 @@ fr
 
 @media (min-width: 1024px) {
   #hero {
-    background-attachment: fixed;
+    background-attachment: initial;
   }
 }
 
@@ -666,7 +666,7 @@ fr
   #hero {
     /*background: url("../img/hero-bg.jpg") top left;*/
     background: url("../img/background3-bg.jpg") top left;
-    background-attachment: fixed;
+    background-attachment: initial;
     background-size: cover;
     -webkit-background-size: cover !important;  /* Safari version */ 
     background-position: center center;
