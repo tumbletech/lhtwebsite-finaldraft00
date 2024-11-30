@@ -634,6 +634,10 @@ fr
   opacity: 100%;
   margin: 10px;
   mix-blend-mode: multiply;
+  background-color: transparent;
+  /*mask-image: url('./assets/img/award01.png');
+  mask-repeat: no-repeat;
+  mask-size: contain;*/
 }
 
 #award03 {
@@ -1360,7 +1364,7 @@ right: 0;
 /* Ensure all cards have the same fixed width and height */
 .card {
   width: 80%; /* Fixed width for all cards */
-  height: 20px; /* Fixed height for all cards */
+  height: 18vh; /* Fixed height for all cards */
   object-fit: cover;
   display: flex;
   flex-direction: column;
@@ -1378,7 +1382,7 @@ right: 0;
   margin-top: 30px;
   padding: 15px;
   width: 80%; /* Full width of the card */
-  height: 50%; /* Fixed height for images */
+  height: 20%; /* Fixed height for images */
   object-fit: cover; /* Ensure images cover the area without distortion */
 }
 
@@ -1397,7 +1401,7 @@ right: 0;
   margin-top: auto; /* Push button to the bottom of the card body */
 }
 
-p .card-text {
+.card-text {
   align-items: center;
   justify-content: center;
 }
@@ -1405,6 +1409,29 @@ p .card-text {
 .card-body p {
   margin-bottom: 1px;
 }
+
+#card-mariah .card-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#img-matt, #img-mariah, #img-glendel, #img-lutchie, #img-melo, #img-selene {
+  height: 30%;
+  width: 80%;
+}
+
+#img-adrian {
+  height: 20%;
+  width: 67%;
+}
+
+#img-joven {
+  height: 20%;
+  width: 65%;
+}
+
 
 .row {
   display: flex;
