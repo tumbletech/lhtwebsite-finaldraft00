@@ -661,12 +661,12 @@ fr
 @media (max-width: 768px) {
   #hero {
     height: 120vh;
+    background-attachment: initial;
   }
 
   #hero {
     /*background: url("../img/hero-bg.jpg") top left;*/
     background: url("../img/background3-bg.jpg") top left;
-    background-attachment: initial;
     background-size: cover;
     -webkit-background-size: cover !important;  /* Safari version */ 
     background-position: center center;
@@ -866,7 +866,7 @@ section {
   /*background: url("../img/hero-bg.jpg") top left;*/
   background: url("../img/hero-bg05.jpg") top left;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: initial;
   position: relative;
 }
 
@@ -975,7 +975,7 @@ section {
   /*background: url("../img/hero-bg.jpg") top left;*/
   background: url("../img/hero-bg02.jpg") top left;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: initial;
   position: relative;
 }
 
@@ -1345,7 +1345,7 @@ section {
 .team {
   background: url("../img/background2-bg.jpg") top left;
   background-position: center center;
-  background-attachment: fixed;
+  background-attachment: initial;
   background-size: cover;
   position: relative;
 }
@@ -1431,7 +1431,6 @@ right: 0;
   height: 20%;
   width: 65%;
 }
-
 
 .row {
   display: flex;
@@ -1590,7 +1589,7 @@ right: 0;
   /*background: url("../img/hero-bg.jpg") top left;*/
   background: url("../img/hero-bg06.jpg") top left;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: initial;
   position: relative;
   }
 
